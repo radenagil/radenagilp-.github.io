@@ -1,0 +1,104 @@
+span {
+    color: blue;
+}
+
+/* Comment */
+.test {
+    background-color: brown;
+}
+
+.bg {
+    width: 200px;
+    height: 100px;
+    background-image: url(/Wallpaper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box1 {
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+
+}
+
+
+.btn{
+    display: flex;
+    gap: 20px;
+
+
+    cursor: pointer;
+    background-color: aqua;
+    padding: 5px 20px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.btn:hover{
+    opacity: 20%;
+}
+
+.d-1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 50vh;
+    background-color: brown;
+}
+
+.square{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}
+.square1{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+}
+.square2{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+}
+.square3{
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+}
+.square4{
+    width: 50px;
+    height: 50px;
+    background-color: cyan;
+}
+
+.general::after{
+    content: 'test';
+    width: 10px;
+    height: 100px;
+    background-color: red;
+}
+.box-animation{
+    
+    width: 100px;
+    height: 100px;
+    left: 0;
+    animation: kirikekanan 1s infinite;
+    background-color: aqua;
+}
+
+@keyframes kirikekanan{
+    0%{
+        margin-left: 0;
+    }
+    100%{
+        margin-left: 100%;
+    }
+}
+
+html, body{
+    scroll-behavior: smooth;
+
+    background-color: yellow;
+}
